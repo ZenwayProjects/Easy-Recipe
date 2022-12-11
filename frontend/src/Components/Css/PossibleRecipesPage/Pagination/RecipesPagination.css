@@ -1,0 +1,68 @@
+.RecipesPagination-Container{
+    width: 99vw;
+    min-height:calc(100vh - 250px); /* 80px sobrantes*/ 
+}
+
+.content-Container{
+    margin: 30px 0px 0px 0px;
+    min-height: calc((100vh - 280px));
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+
+.pagination{
+    height: 50px;
+    justify-content: center;
+}
+
+.content{
+    height: calc((100vh - 250px)* 0.85);
+    background-color: violet;
+}
+
+.pageNumbers{
+    list-style:none;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+}
+
+.pageNumbers li{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #fff;
+    cursor: pointer;
+    height: auto;
+}
+.pageNumbers li.li {
+    padding: 10px ;
+   
+}
+
+.pageNumbers li.active {
+background-color: #fff;
+color:#000;
+}
+
+.pageNumbers li button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0px 10px;
+}
+
+.pageNumbers li button:hover{
+    outline: none;
+   
+}
+
+.pageNumbers li button:focus{
+    outline: none;
+   
+}

@@ -1,0 +1,149 @@
+@font-face{
+    font-family: Roboto-black;
+    src: url('../../../Fonts/Roboto/Roboto-Black.ttf');
+}
+
+@font-face{
+    font-family: Roboto-bold-italic;
+    src: url('../../../Fonts/Roboto/Roboto-BoldItalic.ttf');
+}
+
+@font-face{
+    font-family: Roboto-regular;
+    src: url('../../../Fonts/Roboto/Roboto-Regular.ttf');
+}
+
+.selected-recipe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recipe-title-zone{
+    display: grid;
+    padding: 10px 10px 10px 10px;
+    height: 150px;
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1,1fr);
+
+    grid-template-areas:
+    "section00 section00 section00";
+
+    gap: 20px;
+}
+
+.recipe-title{
+    position: relative;
+    margin-bottom: auto;
+    font-family: Roboto-black;
+    font-size: 5vw;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+    
+}
+
+.subtitle{
+    font-family: Roboto-bold-italic;
+    font-size: 2em;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.section{
+    text-align: center;
+}
+
+.section00{
+    grid-area: section00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.recipe-params-zone{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1,1fr);
+
+    grid-template-areas:
+    "section05 section05 section06";
+
+    gap: 20px;
+    padding: 10px 10px 10px 10px;
+    height: fit-content;
+}
+
+.section05{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    position: relative;
+    grid-area: section05;
+}
+
+
+.section06{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    position: relative;
+    grid-area: section06;
+}
+
+.recipe-content-zone{
+    display: grid;
+    height: 90%;
+    padding: 10px 10px 10px 10px;
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6,1fr);
+
+    grid-template-areas:
+    "section02 section02 section01"
+    "section02 section02 section01"
+    "section02 section02 section01"
+    "section02 section02 section03"
+    "section02 section02 section03"
+    "section02 section02 section03";
+
+    gap: 20px;
+}
+
+.section01{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    position: relative;
+    grid-area: section01;
+}
+
+.section02{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    position: relative;
+    grid-area: section02;
+}
+
+.section03{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    position: relative;
+    grid-area: section03;
+}
+
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+.iframe-container iframe{
+    position: absolute;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

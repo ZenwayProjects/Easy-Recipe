@@ -1,0 +1,85 @@
+@import "../variables";
+
+.visible{
+    display: flex;
+    background: $secondary-color;
+    padding: 5px 0px;
+    user-select: none;
+    flex-wrap: wrap;
+    margin:0px;
+}
+
+
+
+.no-visible{
+   display: none;
+}
+
+
+@keyframes aparecer{
+    0%{
+        display: none;
+    }
+}
+
+.contenedor-Category{
+    overflow: auto;
+    width: 387px;
+    max-width: 387px;
+    background-color: $secondary-color; 
+    border-radius: 10px;
+    float: right;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    max-height: calc(100vh - 70px);
+}
+
+.category{
+    user-select: none;
+    margin: 4px 0px;
+    width: 100%;
+    height: 82px;
+    background: $primary-color;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    align-items: center;
+    display: flex;
+    color: white;
+    
+    
+}
+.category h3{
+    width: 90%;
+}
+.icon-container{
+    width:10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-category{
+    width: 15px;
+    display: block;
+    text-align: center;
+}
+
+.items{
+    display: block;
+    width: 50%;
+    
+    
+}
+
+.items input{
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+
+
+.items li{
+   
+    list-style-type: none;
+
+   
+}

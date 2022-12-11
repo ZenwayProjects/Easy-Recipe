@@ -1,0 +1,48 @@
+@font-face{
+    font-family: Roboto-black;
+    src: url('../../../Fonts/Roboto/Roboto-Black.ttf');
+}
+
+@font-face{
+    font-family: Roboto-bold-italic;
+    src: url('../../../Fonts/Roboto/Roboto-BoldItalic.ttf');
+}
+
+
+.fnf-content{
+    margin: 30px 20px 30px 20px;
+    position: relative;;
+}
+
+.fnf-image-content{
+    display: flex;
+    justify-content: center;
+}
+
+.fnf-image{
+    height: 100%;
+    width: 100%;
+    max-width: 300px;
+}
+
+.fnf-message{
+    font-family: Roboto-bold-italic;
+    text-align: center;
+    font-size: 4vw;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.back-home{
+    font-family: Roboto-black;
+    display: flex;
+    justify-content: center;
+    padding: 20px 10px 20px 10px;
+    margin: 30px;
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+}

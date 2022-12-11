@@ -1,0 +1,18 @@
+body{
+    background-color: #F6F6F6;
+}
+
+text{
+    color: black;
+}
+.body{
+    background-color: brown;
+}
+
+.link-user-manual{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+}
+

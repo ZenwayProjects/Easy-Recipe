@@ -1,0 +1,78 @@
+@font-face{
+    font-family: Roboto-black;
+    src: url('../../../Fonts/Roboto/Roboto-Black.ttf');
+}
+
+@font-face{
+    font-family: Roboto-bold-italic;
+    src: url('../../../Fonts/Roboto/Roboto-BoldItalic.ttf');
+}
+
+@font-face{
+    font-family: Roboto-regular;
+    src: url('../../../Fonts/Roboto/Roboto-Regular.ttf');
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.role-page-content{
+    height: 100vh;
+}
+
+.column{
+    float: left;
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.column:hover{
+    opacity: 0.3;
+  }
+
+.admin{
+    height: 100%;
+    background-image: url('../Imgs/adminImg.jpg');
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.user{
+    height: 100%;
+    background-image: url('../Imgs/userImg.jpg');
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.text-container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    margin: 40px auto;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    color: #dfdfdf;
+    text-align: center;
+    letter-spacing: 5px;
+    text-shadow: 0 2px 2px #dfdfdf, 
+        -2px 5px 1px #b8b8b8, 
+        -4px 8px 0px #979797, 
+        -6px 11px 0px #747474,
+        -8px 14px 0px #565656,
+        -10px 17px 0px #343434,
+        -12px 20px 0px #171717,
+        -14px 23px 0px #000;
+}
+
+
+

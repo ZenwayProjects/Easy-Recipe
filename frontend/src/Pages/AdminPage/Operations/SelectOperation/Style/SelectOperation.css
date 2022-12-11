@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.select-operation-page-content{
+    height: 92.5vh;
+}
+
+.operations-columns{
+    float: left;
+    width: 33.3333333%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.operations-columns:hover{
+    opacity: 0.3;
+  }
+
+.categories{
+    height: 100%;
+    background-image: url('../Imgs/categories.jpg');
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.foods{
+    height: 100%;
+    background-image: url('../Imgs/foods.jpg');
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.recipes{
+    height: 100%;
+    background-image: url('../Imgs/recipes.jpg');
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.text-container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selectOp-text{
+    margin: 40px auto;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: auto;
+    font-weight: bold;
+    color: #dfdfdf;
+    text-align: center;
+    letter-spacing: 5px;
+    text-shadow: 0 2px 2px #dfdfdf, 
+        -2px 5px 1px #b8b8b8, 
+        -4px 8px 0px #979797, 
+        -6px 11px 0px #747474,
+        -8px 14px 0px #565656,
+        -10px 17px 0px #343434,
+        -12px 20px 0px #171717,
+        -14px 23px 0px #000;
+    
+        display: inline-block;
+        max-width: 600px;
+        padding: 10px;
+}
+

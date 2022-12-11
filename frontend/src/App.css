@@ -1,0 +1,63 @@
+body{
+ background-color: aqua;
+}
+div{
+color: #000000;
+
+}
+
+#title{
+  text-align: center;
+  color: #FFFFFF;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+  margin: 0;
+}
+
+#subTitle{
+  color: #FFFFFF;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50%;
+  margin: 0;
+}
+
+.bodyPage{
+  background-color: #3A1F77;
+  min-height: 500px;
+  width: 400px;
+  margin: 60px auto;
+}
+
+#add-items input{
+  background-color: rgb(27, 112, 137);
+  border: 0;
+  width: 200px;
+  height: 50px;
+  padding: 0 20px;
+  margin: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  color: #FFFFFF;
+}
+
+#add-items input::placeholder{
+  color: #FFFFFF;
+}
+
+#add-items input:focus, #add-items button:focus{
+  outline: none;
+}
+
+#add-items button{
+  height: 50px;
+  width: 80px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #116744;
+  cursor: pointer;
+  font-weight: bolder;
+  color: #FFFFFF;
+  text-shadow: 0.5px 0.5px #000;
+}
+

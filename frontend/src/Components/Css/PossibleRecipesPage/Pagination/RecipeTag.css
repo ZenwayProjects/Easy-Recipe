@@ -1,0 +1,86 @@
+.RecipeTag-Container{
+    height: 300px;
+    width: 300px;
+    filter: drop-shadow(-14px 12px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 18px;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    margin-left: calc((100vw - (3 * 300px) )/ 4 ); /* 100% del width menos los pixeles de los 3 contenedores, todo eso dividido en los 4 espacios entre las cajas*/
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+   
+}
+   
+.RecipeTag-Tittle{
+   justify-content: center;
+   display: block;
+   text-align: center;
+   margin-top: 10px;
+   
+}
+   
+
+.RecipeTag-Container  .ima{
+   height: 100%;
+   width: 100%;
+   border-radius: 18px;
+   position: absolute;
+   background-size: cover;
+   top:0;
+   left: 0;
+   z-index: 1;
+}
+   
+.RecipeTag-GradiantLayer{
+       height: 100%;
+       width: 100%;
+       border-radius: 18px;
+       position: absolute;
+       top:0;
+       left: 0;
+       z-index: -1;
+       background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.28) 97.84%)
+}
+   
+.RecipeTag-GeneralDescription{
+   padding-left: 20px;
+   padding-right: 20px;
+   margin-top: 30px;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 7; /* number of lines to show */
+           line-clamp: 2; 
+           -webkit-box-orient: vertical;
+}
+
+.view-recipe-button{
+    position: relative;
+    left: 30%;
+}
+.link-to-recipe, .link-to-recipe:hover{
+    text-decoration: none;
+}
+   
+#no-hidding{
+    z-index: 1;
+}
+   
+#hidding{
+    z-index: -2;
+}
+   
+   
+@media screen and (max-width: 950px) {
+    .RecipeTag-Container{
+        margin-left: calc((100vw - (2 * 300px) )/ 3 ); /* 100% del width menos los pixeles de los 2 contenedores, todo eso dividido en los 3 espacios entre las cajas*/
+    }
+}
+   
+@media screen and (max-width: 650px) {
+    /* mobiles*/
+    .RecipeTag-Container{
+       margin-left: calc((100vw - ( 300px) )/ 2 ); /* 100% del width menos los pixeles de 1 contenedor, todo eso dividido en los 2 espacios entre las cajas*/
+   }
+}
