@@ -1,7 +1,5 @@
 # Easy-Recipe
-Aplication to manage and suggest cooking recipes
-
-This is a web application developed using React.js, Node.js, MySQL, and Express that allows you to search for recipes based on the ingredients you have. You can also add your own recipes and ingredients to the application. The app is available in two languages: Spanish and English.
+Aplication to manage and suggest cooking recipes. This is a web application developed using React.js, Node.js, MySQL, and Express that allows you to search for recipes based on the ingredients you have. You can also add your own recipes and ingredients to the application. The app is available in two languages: Spanish and English.
 
 ## Features
 
